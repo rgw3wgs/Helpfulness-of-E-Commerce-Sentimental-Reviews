@@ -26,6 +26,23 @@
 - The platform that was used was a Mac
 
 ## Section 2: A Map of your documentation
-Hierarchy of folders and subfolders
+- DATA
+  - original_data
+  - final_data 
+- OUTPUTS
+  - KS_test.png
+  - bartlett.png
+  - bigram.png
+  - boxplot.png
+  - piechart.png
+  - t_test.png
+  - table.png
+  - violinplot.png
+  - violinplot2.png
+- SCRIPTS
+  - EDA_code.ipynb
+  - analysis_code.ipynb
+  - clean_data.ipynb
+  - master_script.ipynb
 
 ## Section 3: Instructions for reproducing your results
