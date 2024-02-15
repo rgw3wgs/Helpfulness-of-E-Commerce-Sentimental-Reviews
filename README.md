@@ -46,28 +46,4 @@
   - master_script.ipynb
 
 ## Section 3: Instructions for reproducing your results
-Step 1: Cleaning the data
-  - check for NA values and fill as 'Missing' instead of empty
-  - combine review text and summary columns into a column called review, then drop the former 2 columns
-  - create sentiment column: if 'overall' is 1 or 2, assign as Negative. if 'overall' is 4 or 5, assign as Positive. otherwise, delete the row
-  - drop unnecessary columns: reviewerID, unixReviewTime, and asin columns
-  - change reviewTime to date/year format
-  - create column with helpfulness rate of a review
-  - drop date column and keep year
-  - clean review column *remove text in square brackets, make text lowercase, remove links,       remove punctuation, remove words containing numbers
-  
-Step 2: Creating EDA 
-  - generate table for sentiment vs. helpfulness
-  - create boxplot that shows sentiment and helpfulness
-  - create violin plot
-  - remove 0 values in helpful rate column and create new violin plot with removed observations
-  - create new table for sentiment vs. helpfulness with removed observations
-  - create pie chart
-  - create bigram plot
-
-Step 3: Performing Analysis
-  - split data into Positive and Negative groups
-  - test for normality: kolmogorov smirnov test
-  - test for constant variance: bartlett's
-  - perform independent t test
-  - perform Wilcoxon signed rank test
+In order to reproduce these results shown, run the master Jupyter notebook in the SCRIPTS folder.
